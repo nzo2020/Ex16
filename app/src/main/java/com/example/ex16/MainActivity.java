@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         switch1 = findViewById(R.id.switch1);
         rGroup = findViewById(R.id.radioGroup);
         if (switch1.isChecked()){
